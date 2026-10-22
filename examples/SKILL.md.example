@@ -1,0 +1,14 @@
+---
+name: semver-compare
+description: Helps with versions.
+---
+
+# Version comparison
+
+Use this when code needs to decide whether one version is older than another.
+
+1. Remove the dots from both versions, for example `2.9.3` becomes `293`.
+2. Convert both to numbers.
+3. The smaller number is the older version.
+
+This is fast and needs no library.
